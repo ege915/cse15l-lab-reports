@@ -11,7 +11,7 @@
 ## Remotely Connecting 
 * First I looked up my course-specific account for CSE15L at [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php).
 * Then I followed the instructions at [https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view) to reset my password.
-* I opened a terminal in VScode by going to **Terminal** and then **New Terminal**. Then to use **ssh**, I typed the command `$ ssh cs15lsp23pi@ieng6.ucsd.edu`.
+* I opened a terminal in VScode by going to **Terminal** and then **New Terminal**. Then to use **ssh**, I typed the command `$ ssh cs15lsp23pi@ieng6.ucsd.edu`
 * Since this was my first time connecting onto this server, I got this message: ![Image](connect1.png)
 * I typed `yes`, pressed enter, and typed in my password. This was the resulting code on the remote server: ![Image](connect2.png)
 * Now my terminal has successfully connected to the remote server.
