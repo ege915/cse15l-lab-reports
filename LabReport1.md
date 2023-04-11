@@ -18,5 +18,6 @@
 * Now my terminal has successfully connected to the remote server.
 
 ## Trying Some Commands
-* 
+* The `ls -lat` command resulted in: ![Image](commands1.png)
+* The `ls -a` command resulted in: ![Image](commands2.png)
 
