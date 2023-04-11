@@ -6,5 +6,8 @@
 * However, if a student did not yet have Visual Studio Code downloaded, the steps would be:
 1. Go to the Visual Studio Code website [https://code.visualstudio.com/](https://code.visualstudio.com/). ![Image](VScode1.png)
 2. Follow the instructions to download and install VSCode. ![Image](VScode2.png)
-3. Once VSCode is installed, the student shouldd be able to open a window that is similar to the one below.
-![Image](installVScode.png) 
+3. Once VSCode is installed, the student should be able to open a window that is similar to the one below by clicking on the VSCode application on their computer. ![Image](installVScode.png) 
+
+
+## Remotely Connecting 
+
