@@ -18,6 +18,6 @@
 * Now my terminal has successfully connected to the remote server.
 
 ## Trying Some Commands
-* The `ls -lat` command resulted in: ![Image](commands1.png)
-* The `ls -a` command resulted in: ![Image](commands2.png)
+* I used the `ls -lat` command. `ls` is used to list the files and folders in the given path, which in this case is `-lat`. Trying this command resulted in ![Image](commands1.png)
+* I also used the `ls -a`. Similarly, `ls` is used to list the files and folders in the given path, but in this case the path is `-a`. Trying this command resulted in: ![Image](commands2.png)
 
