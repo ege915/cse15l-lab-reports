@@ -7,4 +7,4 @@
 1. Go to the Visual Studio Code website [https://code.visualstudio.com/](https://code.visualstudio.com/). ![Image](VScode1.png)
 2. Follow the instructions to download and install VSCode. ![Image](VScode2.png)
 3. Once VSCode is installed, the student shouldd be able to open a window that is similar to the one below.
-![Image](installVScode.png)
+![Image](installVScode.png) 
