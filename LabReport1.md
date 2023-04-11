@@ -1,6 +1,4 @@
 # Lab Report 1
-Horizontal rule:
-
 ---
 
 ## Installing VScode
