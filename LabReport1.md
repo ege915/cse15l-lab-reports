@@ -19,5 +19,5 @@
 
 ## Trying Some Commands
 * I used the `ls -lat` command. `ls` is used to list the files and folders in the given path, which in this case is `-lat`. Trying this command resulted in ![Image](commands1.png)
-* I also used the `ls -a`. Similarly, `ls` is used to list the files and folders in the given path, but in this case the path is `-a`. Trying this command resulted in: ![Image](commands2.png)
-
+* I also used the `ls -a` command. `ls` is used to list the files and folders in the given path, but in this case the path is `-a`. Trying this command resulted in: ![Image](commands2.png)
+* I also used the `pwd` command. `pwd` is used to print the path of the current working directory. Trying this command result in: ![Image](commands3.png)
