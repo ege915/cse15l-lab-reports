@@ -1,6 +1,10 @@
 # Lab Report 1
 
 ## Part 1
+*The code for StringServer:*
+![Image](stringServerCode.png)
+
+*Screenshots of /add-message:* 
 ![Image](addMessage1.png)
 * The methods that are called are the handleRequest method in the **Handler** class and the main method in the **StringServer** class.
 * The relevant argument for the handleRequest method is a url of type URI and the relevant argument for the main method is the port number. As for the values of any relevant fields, the **Handler** class has a field called **str** of type String, while the **StringServer** class doesn't have any relevant fields.
