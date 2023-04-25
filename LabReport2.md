@@ -12,15 +12,49 @@
 * The value of **str** changes from this specific request because it changes from "Hello" and a new concatenated line to "Hello", "How are you" in a new line, and a new concatenated line. 
 
 ## Part 2
+* A failure-inducing input for the buggy program:
 ```
-public class ArrayTests{
   @Test
-  public void testReversedArray(){
-  int[] input = {1, 2, 3, 4};
-  int[] output = {4, 3, 2, 1};
-  assertArrayEquals(output, ArrayExamples.reversed(input));
+  public void testReversedArrayFail(){
+    int[] input = {1, 2, 3, 4};
+    int[] output = {4, 3, 2, 1};
+    assertArrayEquals(output, ArrayExamples.reversed(input));
   }
-}
 ```
+* An input that doesn't induce a failure:
+```
+  @Test
+  public void testReversedArrayPass(){
+    int[] input = {0, 0, 0};
+    int[] output = {0, 0, 0};
+    assertArrayEqials(output, ArrayExamples.reversed(input));
+  }
+```
+* The symptom as the output of running the tests:
+![Image](lab3symptom.png)
+* The bug as the before-and-after code change required to fix it:
+*before*
+```
+  static int[] reversed(int[] arr){
+    int[] newArray = new int[arr.length];
+    for (int i = 0; i  < arr.length; i += 1){
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+*after*
+```
+  static int[] reversed(int[] arr){
+    int[] newArray = new int[arr.length];
+    for (int i = 0l i  < arr.length; i += 1){
+    newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
+This fix addresses the issue by fixing the two bugs in the code. First, the code was bugged because we were trying to update the values in the **arr** array with the values in the array **NewArray**. However, since all of the values in **newArray** are 0, the values in the **arr** array were just being replaced with 0. To fix this bug, ```arr[i]``` in the third line of the method body had to be replaced with ```newArray[i]``` and ```newArray[arr.length - i - 1]``` had to be replaced with ```arr[arr.length - i - 1]```. The second bug in the code is that we were originally returning the **arr** array instead of returning the newly created and updated **newArray** array. So we were just returning an Array that has 0 for all of its values. To fix this bug, ```arr``` in the fifth line of the method body has to be replaced with ```newArray```.
+
 
 ## Part 3
