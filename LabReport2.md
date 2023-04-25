@@ -33,6 +33,7 @@
 * The symptom as the output of running the tests:
 ![Image](lab3symptom.png)
 * The bug as the before-and-after code change required to fix it:
+
 *before*
 ```
   static int[] reversed(int[] arr){
