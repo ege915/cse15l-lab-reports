@@ -36,7 +36,7 @@
   }
 ```
 * The symptom as the output of running the tests:
-![Image](lab3symptom.png) 
+![Image](lab3Symptom.png) 
 * The bug as the before-and-after code change required to fix it:
 
 before:
