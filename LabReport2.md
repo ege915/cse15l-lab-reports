@@ -32,7 +32,7 @@
   public void testReversedArrayPass(){
     int[] input = {0, 0, 0};
     int[] output = {0, 0, 0};
-    assertArrayEqials(output, ArrayExamples.reversed(input));
+    assertArrayEquals(output, ArrayExamples.reversed(input));
   }
 ```
 * The symptom as the output of running the tests:
