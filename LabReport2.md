@@ -2,7 +2,7 @@
 
 ## Part 1
 *The code for StringServer:*
-![Image](stringServerCode.png)
+![Image](stringServercode.png)
 
 *Screenshots of /add-message:* 
 ![Image](addMessage1.png)
