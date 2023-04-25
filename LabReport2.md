@@ -16,6 +16,7 @@
 * The value of **str** changes from this specific request because it changes from "Hello" and a new concatenated line to "Hello", "How are you" in a new line, and a new concatenated line. 
 
 ## Part 2
+*The buggy program is the **reversed method** in the ArrayExamples.java file.*
 * A failure-inducing input for the buggy program:
 ```
   @Test
