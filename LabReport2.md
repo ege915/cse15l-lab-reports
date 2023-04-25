@@ -12,6 +12,15 @@
 * The value of **str** changes from this specific request because it changes from "Hello" and a new concatenated line to "Hello", "How are you" in a new line, and a new concatenated line. 
 
 ## Part 2
-
+```
+public class ArrayTests{
+  @Test
+  public void testReversedArray(){
+  int[] input = {1, 2, 3, 4};
+  int[] output = {4, 3, 2, 1};
+  assertArrayEquals(output, ArrayExamples.reversed(input));
+  }
+}
+```
 
 ## Part 3
