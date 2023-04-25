@@ -59,4 +59,4 @@ This fix addresses the issue by fixing the two bugs in the code. First, the code
 
 
 ## Part 3
-Something that I learned from lab in week 2 was how to build and run a server on a local computer. It was cool to see how using the commands ```javac Server.java NumberServer.java``` and ```java NumberServer 4000``` (specifically for the files we used during lab) could start a server. Then by going to the url produced, you could see the output from methods in the NumberServer.java file. I also learned that in order to stop the server, you can press ```Crtl-C```. 
+Something that I learned from lab in week 2 was how to build and run a server on a local computer. It was cool to see how using the commands ```javac Server.java NumberServer.java``` and ```java NumberServer 4000``` (specifically for the files we used during lab) could start a server. Then by going to the url produced, you could see the output from methods in the NumberServer.java file. I also learned that in order to stop the server, you can press ```Crtl-C``` and that if you make a change to the server, you have to first stop the server and then restart it.
