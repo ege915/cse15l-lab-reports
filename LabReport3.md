@@ -66,10 +66,10 @@ output:
 **citation**: I found this command-line option by using the built in command ```man less```.
 
 
-## less -N 
+## less --pattern=pattern
 **example1**:
   
-command: 
+command: ```less --pattern=whistleblower technical/plos/pmed.0020281.txt```
   
 output: 
   
@@ -77,18 +77,12 @@ output:
 
 **example2**: 
 
-command: 
+command: ```less --pattern=electricity technical/government/Env_Prot_Agen/nov1.txt```
 
 output:
   
 ![Image](option4-2.png)
 
-**explanation**: 
+**explanation**: less --pattern=pattern highlights every occurrence of the word that you want to find. Whatever is after the = sign is the word that will be highlighted. This is useful because it allows you to see the occurences of whatever word you want to find at all once. For example, if you wanted to see if you use the word "electricity" a lot in a certain paragraph, you could use less --pattern=electricity to see how often "electricity" shows up in that paragraph. 
   
 **citation**: I found this command-line option by using the built in command ```man less```.
-
-
-
-For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful. That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. 
-
-
