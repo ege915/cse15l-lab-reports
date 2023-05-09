@@ -39,41 +39,49 @@ output:
   
 ![Image](option2-2.png)
 
-**explanation**: less - s consolidates consecutive blank lines into a single blank line. This is useful because if a file has a lot of consecutive blank lines, you can combine them into just one blank line so that you don't have to scroll as much. 
+**explanation**: less -s consolidates consecutive blank lines into a single blank line. This is useful because if a file has a lot of consecutive blank lines, you can combine them into just one blank line so that you don't have to scroll as much. 
   
 **citation**: I found this command-line option by using the built in command ```man less```.
   
 
+## less -m
+**example1**:
+  
+command: ```less -m technical/biomed/rr74.txt```
+  
+output: 
+  
+![Image](option3-1.png)
+
+**example2**: 
+
+command: ```less -m technical/plos/pmed.0020015.txt```
+
+output:
+  
+![Image](option3-2.png)
+
+**explanation**: less -m allows you to see what percent of the file you have looked at or in other words shows a percent of how far into the file you are. This is useful because it could help you determine how much of the file you have left to read.
+  
+**citation**: I found this command-line option by using the built in command ```man less```.
+
+
 ## less -N 
 **example1**:
   
-command:
+command: 
   
 output: 
+  
+![Image](option4-1.png)
 
 **example2**: 
 
 command: 
 
 output:
-
-**explanation**: 
   
-**citation**: I found this command-line option by using the built in command ```man less```.
-
-
-## less -N 
-**example1**:
-  
-command: 
-  
-output: 
-
-**example2**: 
-
-command: 
-
-output:
+![Image](option4-2.png)
 
 **explanation**: 
   
