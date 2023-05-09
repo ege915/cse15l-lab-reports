@@ -83,6 +83,6 @@ output:
   
 ![Image](option4-2.png)
 
-**explanation**: ```less --pattern=pattern``` highlights every occurrence of the word that you want to find. Whatever is after the = sign is the word that will be highlighted. This is useful because it allows you to see the occurences of whatever word you want to find at all once. For example, if you wanted to see if you use the word "electricity" a lot in a certain paragraph, you could use less ```--pattern=electricity``` to see how often "electricity" shows up in that paragraph. 
+**explanation**: ```less --pattern=pattern``` highlights every occurrence of the word that you want to find. Whatever is after the = sign is the word that will be highlighted. This is useful because it allows you to see the occurences of whatever word you want to find at all once. For example, if you wanted to see if you use the word "electricity" a lot in a certain paragraph, you could use less ```--pattern=electricity``` to see how many times "electricity" is highlighted in that paragraph. 
   
 **citation**: I found this command-line option by using the built in command ```man less```.
