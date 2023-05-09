@@ -3,7 +3,8 @@
 ## less -N 
 **example1**:
   
-command: ```less -N technical/government/Media/A_helping_hand.txt```
+command: ```less -N technical/government/Media/A_helping_hand.txt
+![Image](option1-1.png)```
   
 output: 
 
@@ -18,20 +19,20 @@ output:
 **citation**: I found this command-line option by using the built in command ```man less```.
   
 
-## less -N 
+## less -s
 **example1**:
   
-command: 
+command: ```less -s technical/government/Alcohol_Problems/Session2-PDF.txt```
   
 output: 
 
 **example2**: 
 
-command: 
+command: ```less -s technical/government/Alcohol_Problems/DraftRecom-PDF.txt```
 
 output:
 
-**explanation**:
+**explanation**: less - s consolidates consecutive blank lines into a single blank line. This is useful because if a file has a lot of consecutive blank lines, you can combine them into just one blank line so that you don't have to scroll as much. In addition, 
   
 **citation**: I found this command-line option by using the built in command ```man less```.
   
@@ -73,9 +74,6 @@ output:
 
 
 
-For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
+For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful. That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. 
 
-That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. Many commands like these have pretty sophisticated behavior possible – it can take years to be exposed to and learn all of the possible tricks and inner workings.
-
-Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it.
 
