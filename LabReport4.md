@@ -1,34 +1,40 @@
 # Lab Report 4
 
-## Step 4
+## Step 4: Log into ieng6
 ![Image](step4.png)
 
-Keys pressed:
+Keys pressed: ```ssh cs15lsp23pi@ieng6.ucsd.edu``` <enter> 
 
-## Step 5
+I ssh-ed into the remote server with my course specific account.
+
+## Step 5: Clone your fork of the repository from your Github account
 ![Image](step5.png)
 
-Keys pressed: 
+Keys pressed: ```git clone https://github.com/ucsd-cse15l-s23/lab7.git``` <enter>
 
-## Step 6
+## Step 6: Run the tests, demonstrating that they fail
 ![Image](step6.png)
 
-Keys pressed:
+Keys pressed: ```cd lab7``` <enter> ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` <enter> ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests``` <enter>
 
-## Step 7
+## Step 7: Edit the code file to fix the failing test
 ![Image](step7.png)
 
-Keys pressed:
+Keys pressed: ```vim Li``` <tab> ```.java``` <enter> ```/while(index2``` <enter> ```jjjexi2```<esc> ```:wq``` <enter> 
 
-## Step 8
+
+## Step 8: Run the tests, demonstrating that they now succeed
 ![Image](step8.png)
 
-Keys pressed:
+Keys pressed: ```bash t``` <tab> <enter>
 
-## Step 9
+## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 ![Image](step9.png)
 
-Keys pressed:
+Keys pressed: ```git init``<enter> ```git add L``` <tab> ```.java``` <enter> ```git commit -m "edited files"``` <enter> 
+
+
+
 
 
 
