@@ -8,7 +8,7 @@ Keys pressed: ```ssh cs15lsp23pi@ieng6.ucsd.edu``` <enter>
 I ssh-ed into the remote server with my course specific account.
 
 ## Step 5: Clone your fork of the repository from your Github account
-![Image](step5.png)
+![Image](step5.png) 
 
 Keys pressed: ```git clone https://github.com/ege915/lab7.git``` <enter>
 
