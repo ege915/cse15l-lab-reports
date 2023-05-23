@@ -10,7 +10,7 @@ I ssh-ed into the remote server with my course specific account.
 ## Step 5: Clone your fork of the repository from your Github account
 ![Image](step5.png)
 
-Keys pressed: ```git clone https://github.com/ucsd-cse15l-s23/lab7.git``` <enter>
+Keys pressed: ```git clone https://github.com/ege915/lab7.git``` <enter>
 
 ## Step 6: Run the tests, demonstrating that they fail
 ![Image](step6.png)
@@ -29,7 +29,8 @@ Keys pressed: ```vim Li``` <tab> ```.java``` <enter> ```/while(index2``` <enter>
 Keys pressed: ```bash t``` <tab> <enter>
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
-![Image](step9.png)
+![Image](step9-1.png)
+![Image](step9-2.png)
 
 Keys pressed: ```git init``` <enter> ```git add L``` <tab> ```.java``` <enter> ```git commit -m "edited files"``` <enter> 
 
