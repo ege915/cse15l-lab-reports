@@ -31,7 +31,7 @@ Keys pressed: ```bash t``` <tab> <enter>
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 ![Image](step9.png)
 
-Keys pressed: ```git init``<enter> ```git add L``` <tab> ```.java``` <enter> ```git commit -m "edited files"``` <enter> 
+Keys pressed: ```git init``` <enter> ```git add L``` <tab> ```.java``` <enter> ```git commit -m "edited files"``` <enter> 
 
 
 
