@@ -36,10 +36,10 @@ Keys pressed: ```bash t``` < tab > < enter >
 I typed ```bash t``` and then pressed tab for the rest of test.sh to autofill. Then I pressed enter so that the tests would run. 
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
-![Image](step9-1.png)
+![Image](pushchanges.png)
 ![Image](step9-2.png)
 
 Keys pressed: ```git init``` < enter > ```git add L``` < tab > ```.java``` < enter > ```git commit -m "edited files"``` < enter > ```git push origin main``` < enter >
   
-I typed ```git init``` 
+I typed ```git init``` to reinitialize the repository. Then I typed ```git add L``` and pressed tab to autofill ListExamples. Then I typed ```.java``` and pressed enter to add ListExamples.java to the files that I want to be committed. Then I did ```git commit -m "edited files"``` to commit ListExamples.java. Finally, to push the changes I made to ListExamples.java to my Github account, I did ```git push origin main```.
   
