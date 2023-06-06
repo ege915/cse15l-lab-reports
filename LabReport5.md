@@ -1,7 +1,7 @@
 # Lab Report 5
 
 ## Part 1 - Debugging Scenario
-1) original post from student:
+> original post from student:
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
 
@@ -17,14 +17,38 @@ Two of my tests are failing and the length of the expected array is different fr
 
 The failure-inducing inputs are testMerge2 and testMerge3 in the ListExamplesTests.java file: ![Image](studentogpost2.png)
 This is my code in the ListExamples.java file: ![Image](studentogpost1.png)
-This is my test.sh file: ![Image](studentogpost4.png)
+This is my code in the test.sh file: ![Image](studentogpost4.png)
 The only command that I am running is bash test.sh in order to run the tests. 
 
-2) response from a TA:
+
+> response from a TA:
+
+There seems to be an issue with the code in your ListExamples.java. Try going through the code in the merge method and see if you can find a bug somewhere there. It may be helpful to start looking at the part of the merge method that deals with duplicate values.
 
 
+> student applying feedback and a clear description of what the bug is:
 
-3) student applying feedback and a clear description of what the bug is:
-4) all information about the setup:
+The bug was that if there were duplicates of a value, that value wouldn't be added to the array at all. Since both index1 and index2 were incremented by one, both instances of the duplicate value would be skipped and the code would move onto the next elements in each array. This bug resulted in arrays that were not the correct length and were missing elements. 
+
+The terminal output after applying the TA's feedback.
+![Image](studentfixesbug.png)
+
+> all information about the setup:
+1) file and directory needed: 
+
+The file that needs to be fixed is the ListExamples.java file. The tests are in the ListExamplesTests.java file and the test.sh file is used to run the tests. The directory needed is the lab7 directory because that is where all the files are. 
+
+2) the contents of each file before fixing the bug:
+![Image](studentogpost2.png)
+![Image](studentogpost1.png)
+![Image](studentogpost4.png)
+
+3) the full command line you ran to trigger the bug:
+
+```bash test.sh```
+
+4) a description of what to edit to fix the bug:
+
+To fix the bug, a line of code needs to be added within the if statement in the while loop and should be before the lines that say ```index1 += 1;``` and ```index2 += 1;```. The line of code should be ```result.add(list1.get(index1));```. This will fix the bug of the duplicate value not being added to the array at all. It should look like this: ![Image](howtofixbug.png)
 
 ## Part 2 - Reflection 
