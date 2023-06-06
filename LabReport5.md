@@ -9,7 +9,7 @@ I am operating on a MacBook Pro that has an operating system of MacOS and I am u
 
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
-Two of my tests are failing and the length of the expected array is different from the length of the actual array. In addition, the elements in the arrays are not entirely correct. In testMerge2, the expected array is { "a", "b", "c", "d", "e" }, but the actual array is { "a", "b", "d", "e" }. In testMerge3, the expected array is { "a", "b", "c", "d", "e" }, but the actual array is {"b", "c", "d", "e" }. These two tests have duplicates in them, so I think that might be the problem since none of the elements that were a duplicate appear in the final array. 
+Two of my tests are failing and the length of the expected array is different from the length of the actual array. In addition, the elements in the arrays are not entirely correct. In testMerge2, the expected array is { "a", "b", "c", "d", "e" }, but the actual array is { "a", "b", "d", "e" }. In testMerge3, the expected array is { "a", "b", "c", "d", "e" }, but the actual array is {"b", "c", "d", "e" }. These two tests have duplicates in them, so I think that might be the problem since none of the elements that were a duplicate appear in the final array. In this version of ListExamples.java, duplicate values are not supposed to all be added, but rather should only be added once.
 
 ![Image](studentogpost3-2.png)
 
