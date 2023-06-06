@@ -49,7 +49,7 @@ The file that needs to be fixed is the ListExamples.java file. The tests are in 
 
 4) a description of what to edit to fix the bug:
 
-To fix the bug, a line of code needs to be added within the if statement in the while loop and should be before the lines that say ```index1 += 1;``` and ```index2 += 1;```. The line of code should be ```result.add(list1.get(index1));```. This will fix the bug of the duplicate value not being added to the array at all. It should look like this: ![Image](howtofixbug.png)
+To fix the bug, a line of code needs to be added within the if statement in the while loop and it should be added before the lines that say ```index1 += 1;``` and ```index2 += 1;```. The line of code should be ```result.add(list1.get(index1));```. This will fix the bug of the duplicate value not being added to the array at all. It should look like this: ![Image](howtofixbug.png)
 
 ## Part 2 - Reflection 
 
