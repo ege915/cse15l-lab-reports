@@ -34,6 +34,8 @@ The terminal output after applying the TA's feedback.
 ![Image](studentfixesbug.png)
 
 > all information about the setup:
+
+
 1) file and directory needed: 
 
 The file that needs to be fixed is the ListExamples.java file. The tests are in the ListExamplesTests.java file and the test.sh file is used to run the tests. The directory needed is the lab7 directory because that is where all the files are. 
