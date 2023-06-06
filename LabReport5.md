@@ -52,3 +52,5 @@ The file that needs to be fixed is the ListExamples.java file. The tests are in 
 To fix the bug, a line of code needs to be added within the if statement in the while loop and should be before the lines that say ```index1 += 1;``` and ```index2 += 1;```. The line of code should be ```result.add(list1.get(index1));```. This will fix the bug of the duplicate value not being added to the array at all. It should look like this: ![Image](howtofixbug.png)
 
 ## Part 2 - Reflection 
+
+Something that I learned from my lab experience in this second half of the quarter that I didn't know before was how to use vim. I had never heard of vim before and using the vimtutor to learn how to edit using vim was interesting as well. Using vim definitely helped me to speed up tasks from the command line, such as editing files and running tests. It was also interesting to see how different commands in vim can do similar things and how there are different combinations of commands that give you the same result but vary in speed/key presses. 
